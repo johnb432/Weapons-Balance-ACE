@@ -13,7 +13,9 @@ class CfgPatches {
     };
 };
 
+#include "CfgAcc.hpp"
 #include "CfgMagazines.hpp"
+#include "CfgMagazineWells.hpp"
 
 class ace_medical_replacementItems {
     ItemType_401[] = {{"ACE_packingBandage",2},{"ACE_morphine",1},{"ACE_tourniquet",1}};
