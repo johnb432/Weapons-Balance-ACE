@@ -102,42 +102,56 @@ class CfgMagazines {
         displayname = "12 Gauge 8Rnd #00 Buckshot";
         count = 8;
         mass = 8.8;
+        model = "\A3\weapons_F\ammo\mag_univ.p3d";
+        modelSpecial = "";
     };
     class ACE_8Rnd_12Gauge_Pellets_No0_Buck: ACE_6Rnd_12Gauge_Pellets_No0_Buck {
         author = "johnb43";
         displayname = "12 Gauge 8Rnd #0 Buckshot";
         count = 8;
         mass = 8.8;
+        model = "\A3\weapons_F\ammo\mag_univ.p3d";
+        modelSpecial = "";
     };
     class ACE_8Rnd_12Gauge_Pellets_No1_Buck: ACE_6Rnd_12Gauge_Pellets_No1_Buck {
         author = "johnb43";
         displayname = "12 Gauge 8Rnd #1 Buckshot";
         count = 8;
         mass = 8.8;
+        model = "\A3\weapons_F\ammo\mag_univ.p3d";
+        modelSpecial = "";
     };
     class ACE_8Rnd_12Gauge_Pellets_No2_Buck: ACE_6Rnd_12Gauge_Pellets_No2_Buck {
         author = "johnb43";
         displayname = "12 Gauge 8Rnd #2 Buckshot";
         count = 8;
         mass = 8.8;
+        model = "\A3\weapons_F\ammo\mag_univ.p3d";
+        modelSpecial = "";
     };
     class ACE_8Rnd_12Gauge_Pellets_No3_Buck: ACE_6Rnd_12Gauge_Pellets_No3_Buck {
         author = "johnb43";
         displayname = "12 Gauge 8Rnd #3 Buckshot";
         count = 8;
         mass = 8.8;
+        model = "\A3\weapons_F\ammo\mag_univ.p3d";
+        modelSpecial = "";
     };
     class ACE_8Rnd_12Gauge_Pellets_No4_Buck: ACE_6Rnd_12Gauge_Pellets_No4_Buck {
         author = "johnb43";
         displayname = "12 Gauge 8Rnd #4 Buckshot";
         count = 8;
         mass = 8.8;
+        model = "\A3\weapons_F\ammo\mag_univ.p3d";
+        modelSpecial = "";
     };
     class ACE_8Rnd_12Gauge_Pellets_No4_Bird: ACE_6Rnd_12Gauge_Pellets_No4_Bird {
         author = "johnb43";
         displayname = "12 Gauge 8Rnd #7 Birdshot";
         count = 8;
         mass = 8.8;
+        model = "\A3\weapons_F\ammo\mag_univ.p3d";
+        modelSpecial = "";
     };
     class 6Rnd_12Gauge_Slug;
     class ACE_8Rnd_12Gauge_Pellets_Slug_Buck: 6Rnd_12Gauge_Slug {
@@ -145,5 +159,7 @@ class CfgMagazines {
         displayname = "12 Gauge 8Rnd Slug";
         count = 8;
         mass = 8.8;
+        model = "\A3\weapons_F\ammo\mag_univ.p3d";
+        modelSpecial = "";
     };
 };
