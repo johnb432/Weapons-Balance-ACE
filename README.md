@@ -38,6 +38,8 @@
             - Added 100Rnd ACE IR-DIM mag
         - 7.62x51 SR25:
             - Added 7x ACE 20Rnd mags
+        - .50cal HMG:
+            - Added 4x ACE 100Rnd 12.7x99mm belts
     - Vanilla
         - 6.5x39 Katiba:
             - Added ACE Tracer IR-DIM mag

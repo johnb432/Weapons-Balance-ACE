@@ -54,4 +54,13 @@ class CfgMagazineWells {
             "ACE_20Rnd_762x51_M993_AP_Mag"
         };
     };
+
+    class CBA_50BMG_100rnds {
+        WB_Magazines[] += {
+            "ace_csw_100Rnd_127x99_mag",
+            "ace_csw_100Rnd_127x99_mag_green",
+            "ace_csw_100Rnd_127x99_mag_red",
+            "ace_csw_100Rnd_127x99_mag_yellow"
+        };
+    };
 };

@@ -6,22 +6,27 @@ class CfgMagazines {
     class 10Rnd_762x51_Mag;
     class 20Rnd_762x51_Mag;
     class 10Rnd_762x54_Mag;
+    class ACE_6Rnd_12Gauge_Pellets_No1_Buck;
+    class ACE_6Rnd_12Gauge_Pellets_No2_Buck;
+    class ACE_6Rnd_12Gauge_Pellets_No3_Buck;
+    class ACE_6Rnd_12Gauge_Pellets_No4_Buck;
+    class ACE_6Rnd_12Gauge_Pellets_No4_Bird;
 
     class ACE_10Rnd_762x54_Tracer_mag: 10Rnd_762x54_Mag {
         mass = 5.1;
     };
 
     class ACE_30Rnd_556x45_Stanag_M995_AP_mag: 30Rnd_556x45_Stanag {
-        mass = 9.3;
+        mass = 9.35;
     };
     class ACE_30Rnd_556x45_Stanag_Mk262_mag: 30Rnd_556x45_Stanag {
-        mass = 9.3;
+        mass = 9.35;
     };
     class ACE_30Rnd_556x45_Stanag_Mk318_mag: 30Rnd_556x45_Stanag {
-        mass = 9.3;
+        mass = 9.35;
     };
     class ACE_30Rnd_556x45_Stanag_Tracer_Dim: 30Rnd_556x45_Stanag_Tracer_Red {
-        mass = 9.3;
+        mass = 9.35;
     };
 
     class ACE_10Rnd_762x51_M118LR_Mag: 10Rnd_762x51_Mag {
@@ -55,45 +60,12 @@ class CfgMagazines {
     class ACE_20Rnd_762x51_Mag_Tracer: 20Rnd_762x51_Mag {
         mass = 16.24;
     };
-    class ACE_20Rnd_762x51_Mag_Tracer_Dim: ACE_20Rnd_762x51_Mag_Tracer {
-        mass = 16.24;
-    };
 
     class ACE_2Rnd_12Gauge_Pellets_No0_Buck: 2Rnd_12Gauge_Pellets {
         mass = 2.2;
     };
-    class ACE_2Rnd_12Gauge_Pellets_No1_Buck: ACE_2Rnd_12Gauge_Pellets_No0_Buck {
-        mass = 2.2;
-    };
-    class ACE_2Rnd_12Gauge_Pellets_No2_Buck: ACE_2Rnd_12Gauge_Pellets_No0_Buck {
-        mass = 2.2;
-    };
-    class ACE_2Rnd_12Gauge_Pellets_No3_Buck: ACE_2Rnd_12Gauge_Pellets_No0_Buck {
-        mass = 2.2;
-    };
-    class ACE_2Rnd_12Gauge_Pellets_No4_Buck: ACE_2Rnd_12Gauge_Pellets_No0_Buck {
-        mass = 2.2;
-    };
-    class ACE_2Rnd_12Gauge_Pellets_No4_Bird: ACE_2Rnd_12Gauge_Pellets_No0_Buck {
-        mass = 2.2;
-    };
 
     class ACE_6Rnd_12Gauge_Pellets_No0_Buck: 6Rnd_12Gauge_Pellets {
-        mass = 6.6;
-    };
-    class ACE_6Rnd_12Gauge_Pellets_No1_Buck: ACE_6Rnd_12Gauge_Pellets_No0_Buck {
-        mass = 6.6;
-    };
-    class ACE_6Rnd_12Gauge_Pellets_No2_Buck: ACE_6Rnd_12Gauge_Pellets_No0_Buck {
-        mass = 6.6;
-    };
-    class ACE_6Rnd_12Gauge_Pellets_No3_Buck: ACE_6Rnd_12Gauge_Pellets_No0_Buck {
-        mass = 6.6;
-    };
-    class ACE_6Rnd_12Gauge_Pellets_No4_Buck: ACE_6Rnd_12Gauge_Pellets_No0_Buck {
-        mass = 6.6;
-    };
-    class ACE_6Rnd_12Gauge_Pellets_No4_Bird: ACE_6Rnd_12Gauge_Pellets_No0_Buck {
         mass = 6.6;
     };
 
@@ -153,6 +125,7 @@ class CfgMagazines {
         model = "\A3\weapons_F\ammo\mag_univ.p3d";
         modelSpecial = "";
     };
+
     class 6Rnd_12Gauge_Slug;
     class ACE_8Rnd_12Gauge_Pellets_Slug_Buck: 6Rnd_12Gauge_Slug {
         author = "johnb43";
