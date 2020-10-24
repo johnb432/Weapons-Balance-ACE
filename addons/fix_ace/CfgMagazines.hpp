@@ -14,6 +14,7 @@ class CfgMagazines {
 
     class ACE_10Rnd_762x54_Tracer_mag: 10Rnd_762x54_Mag {
         mass = 5.1;
+        modelSpecial = "";
     };
 
     class ACE_30Rnd_556x45_Stanag_M995_AP_mag: 30Rnd_556x45_Stanag {
