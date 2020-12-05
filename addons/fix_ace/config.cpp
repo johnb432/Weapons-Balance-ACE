@@ -7,7 +7,8 @@ class CfgPatches {
         requiredAddons[] = {
             "cba_main",
             "ace_ballistics",
-            "ace_medical_treatment"
+            "ace_medical_treatment",
+            "ace_logistics_uavbattery"
         };
         author = "johnb43";
     };
@@ -16,6 +17,7 @@ class CfgPatches {
 #include "CfgAcc.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
+#include "CfgWeapons.hpp"
 
 class ace_medical_replacementItems {
     ItemType_401[] = {{"ACE_packingBandage",2},{"ACE_morphine",1},{"ACE_tourniquet",1}};

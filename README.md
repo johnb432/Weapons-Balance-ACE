@@ -1,5 +1,12 @@
 # Changelog for Weapons balance 23.8.2020
 
+- Weapon changes:
+    - ACE:
+        - UAV Battery:
+            - Changed weight from 0.91kg to 0.36kg
+
+# Changelog for Weapons balance 23.8.2020
+
 - New additions:
     - 12 Gauge 8Rnd from vanilla (are put in the ACE fix)
     - Changed vanilla medical looting:
