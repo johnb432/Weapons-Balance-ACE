@@ -1,4 +1,4 @@
-# Changelog for Weapons balance 23.8.2020
+# Changelog for Weapons balance 2.12.2020
 
 - Weapon changes:
     - ACE:
