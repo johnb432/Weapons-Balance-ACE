@@ -23,6 +23,29 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_300WM_AI {
+        WB_Magazines[] += {
+            "ACE_20Rnd_762x67_Mk248_Mod_0_Mag",
+            "ACE_20Rnd_762x67_Mk248_Mod_1_Mag",
+            "ACE_20Rnd_762x67_Berger_Hybrid_OTM_Mag"
+        };
+    };
+
+    class CBA_300WM_AICS {
+        WB_Magazines[] += {
+            "ACE_20Rnd_762x67_Mk248_Mod_0_Mag",
+            "ACE_20Rnd_762x67_Mk248_Mod_1_Mag",
+            "ACE_20Rnd_762x67_Berger_Hybrid_OTM_Mag"
+        };
+    };
+
+    class CBA_338LM_AI {
+        WB_Magazines[] += {
+            "ACE_10Rnd_338_300gr_HPBT_Mag",
+            "ACE_10Rnd_338_API526_Mag"
+        };
+    };
+
     class CBA_65x39_Katiba {
         WB_Magazines[] += {
             "ACE_30Rnd_65x39_caseless_green_mag_Tracer_Dim"
@@ -43,24 +66,19 @@ class CfgMagazineWells {
         };
     };
 
-    class CBA_762x51_SR25 {
-        WB_Magazines[] += {
-            "ACE_20Rnd_762x51_Mag_Tracer",
-            "ACE_20Rnd_762x51_Mag_Tracer_Dim",
-            "ACE_20Rnd_762x51_Mag_SD",
-            "ACE_20Rnd_762x51_M118LR_Mag",
-            "ACE_20Rnd_762x51_Mk316_Mod_0_Mag",
-            "ACE_20Rnd_762x51_Mk319_Mod_0_Mag",
-            "ACE_20Rnd_762x51_M993_AP_Mag"
-        };
-    };
-
     class CBA_50BMG_100rnds {
         WB_Magazines[] += {
             "ace_csw_100Rnd_127x99_mag",
             "ace_csw_100Rnd_127x99_mag_green",
             "ace_csw_100Rnd_127x99_mag_red",
             "ace_csw_100Rnd_127x99_mag_yellow"
+        };
+    };
+
+    class MAR10_338 {
+        ace_ballistics[] = {
+            "ACE_10Rnd_338_300gr_HPBT_Mag",
+            "ACE_10Rnd_338_API526_Mag",
         };
     };
 };

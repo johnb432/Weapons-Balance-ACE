@@ -1,3 +1,18 @@
+# Changelog for Weapons balance 29.12.2020
+
+- MagazineWells:
+    - CBA:
+        - .300WM AI:
+            - Added 3x ACE 20Rnd mags
+        - .300WM AICS:
+            - Added 3x ACE 20Rnd mags
+        - .338 AI:
+            - Added 2x ACE 10Rnd mags
+
+    - Vanilla:
+        - MAR10 .338:
+            - Removed 3x ACE 20Rnd mags
+
 # Changelog for Weapons balance 2.12.2020
 
 - Weapon changes:
@@ -28,8 +43,7 @@
 
 # Changelog for Weapons balance 29.7.2020
 
-- New additions:
-    - 8Rnd ACE 12 Gauge shells
+- Added 8Rnd ACE 12 Gauge shells
 
 - MagazineWells:
     - CBA:
@@ -43,8 +57,6 @@
             - Added 3x ACE 30Rnd mags
         - 6.5x39 MX XL:
             - Added 100Rnd ACE IR-DIM mag
-        - 7.62x51 SR25:
-            - Added 7x ACE 20Rnd mags
         - .50cal HMG:
             - Added 4x ACE 100Rnd 12.7x99mm belts
     - Vanilla
