@@ -1,3 +1,7 @@
+# Changelog for Weapons balance 12.02.2021
+
+- Updated to comply with 3CB Faction update
+
 # Changelog for Weapons balance 29.12.2020
 
 - MagazineWells:

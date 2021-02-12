@@ -18,18 +18,18 @@ class asdg_MuzzleSlot: asdg_SlotInfo {
     class compatibleItems {};
 };
 
-class asdg_MuzzleSlot_556_3CB_HK33: asdg_MuzzleSlot {
+class UK3CB_MuzzleSlot_556_HK33: asdg_MuzzleSlot {
     class compatibleItems {
         ace_muzzle_mzls_l = 1;
     };
 };
 
-class asdg_MuzzleSlot_762_3CB_G3: asdg_MuzzleSlot {
+class UK3CB_MuzzleSlot_762_G3: asdg_MuzzleSlot {
     class compatibleItems {
         ace_muzzle_mzls_b = 1;
     };
 };
-class asdg_MuzzleSlot_762_3CB_M14: asdg_MuzzleSlot {
+class UK3CB_MuzzleSlot_762_M14: asdg_MuzzleSlot {
     class compatibleItems {
         ace_muzzle_mzls_b = 1;
     };
