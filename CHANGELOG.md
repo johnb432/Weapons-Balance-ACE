@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 4.3.2022
+
+1.1.0.3
+- Minor fixes.
+
 # Changelog for Weapons balance 25.2.2022
 
 1.1.0.2

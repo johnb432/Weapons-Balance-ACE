@@ -3,7 +3,7 @@ class CfgMagazines {
     class 6Rnd_12Gauge_Pellets;
     class 30Rnd_556x45_Stanag;
     class 30Rnd_556x45_Stanag_Tracer_Red;
-    class 10Rnd_762x51_Mag;
+    class 10Rnd_Mk14_762x51_Mag;
     class 20Rnd_762x51_Mag;
     class 10Rnd_762x54_Mag;
     class ACE_6Rnd_12Gauge_Pellets_No1_Buck;
@@ -30,16 +30,16 @@ class CfgMagazines {
         mass = 9.35;
     };
 
-    class ACE_10Rnd_762x51_M118LR_Mag: 10Rnd_762x51_Mag {
+    class ACE_10Rnd_762x51_M118LR_Mag: 10Rnd_Mk14_762x51_Mag {
         mass = 8.9;
     };
-    class ACE_10Rnd_762x51_M993_AP_Mag: 10Rnd_762x51_Mag {
+    class ACE_10Rnd_762x51_M993_AP_Mag: 10Rnd_Mk14_762x51_Mag {
         mass = 8.9;
     };
-    class ACE_10Rnd_762x51_Mk316_Mod_0_Mag: 10Rnd_762x51_Mag {
+    class ACE_10Rnd_762x51_Mk316_Mod_0_Mag: 10Rnd_Mk14_762x51_Mag {
         mass = 8.9;
     };
-    class ACE_10Rnd_762x51_Mk319_Mod_0_Mag: 10Rnd_762x51_Mag {
+    class ACE_10Rnd_762x51_Mk319_Mod_0_Mag: 10Rnd_Mk14_762x51_Mag {
         mass = 8.9;
     };
 
