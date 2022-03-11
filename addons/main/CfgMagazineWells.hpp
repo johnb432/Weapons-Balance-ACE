@@ -55,8 +55,12 @@ class CfgMagazineWells {
     class CBA_65x39_MX {
         MAGAZINE_WELL[] += {
             "ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",
-            "ACE_30Rnd_65x47_Scenar_mag",
-            "ACE_30Rnd_65_Creedmor_mag"
+            "ACE_30Rnd_65_Creedmor_black_mag",
+            "ACE_30Rnd_65_Creedmor_khaki_mag",
+            "ACE_30Rnd_65_Creedmor_mag",
+            "ACE_30Rnd_65x47_Scenar_black_mag",
+            "ACE_30Rnd_65x47_Scenar_khaki_mag",
+            "ACE_30Rnd_65x47_Scenar_mag"
         };
     };
 
@@ -79,6 +83,24 @@ class CfgMagazineWells {
         ace_ballistics[] = {
             "ACE_10Rnd_338_300gr_HPBT_Mag",
             "ACE_10Rnd_338_API526_Mag",
+        };
+    };
+
+    class MX_65x39 {
+        MAGAZINE_WELL[] += {
+            "ACE_30Rnd_65_Creedmor_black_mag",
+            "ACE_30Rnd_65_Creedmor_khaki_mag",
+            "ACE_30Rnd_65_Creedmor_mag",
+            "ACE_30Rnd_65x47_Scenar_black_mag",
+            "ACE_30Rnd_65x47_Scenar_khaki_mag",
+            "ACE_30Rnd_65x47_Scenar_mag"
+        };
+    };
+
+    class MX_65x39_MSBS {
+        MAGAZINE_WELL[] += {
+            "ACE_30Rnd_65_Creedmor_msbs_mag",
+            "ACE_30Rnd_65x47_Scenar_msbs_mag"
         };
     };
 };
