@@ -10,7 +10,9 @@ class CfgPatches {
             "cba_main",
             "ace_ballistics",
             "ace_medical_treatment",
-            "ace_logistics_uavbattery"
+            "ace_logistics_uavbattery",
+            "ace_realisticweights",
+            "ace_realisticnames"
         };
         author = "johnb43";
         authors[] = {"johnb43"};
