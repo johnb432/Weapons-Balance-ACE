@@ -1,9 +1,10 @@
 #define COMPONENT main
+#define COMPONENT_BEAUTIFIED ACE
 #include "script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
-// #define CBA_DEBUG_SYNCHRONOUS
+// #define DEBUG_SYNCHRONOUS
 // #define ENABLE_PERFORMANCE_COUNTERS
 
 #ifdef DEBUG_ENABLED_WB_ACE
@@ -14,6 +15,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_WB_ACE
 #endif
 
-#define MAGAZINE_WELL WB_Magazines
-
-#include "\x\cba\addons\main\script_macros_common.hpp"
+#include "script_macros.hpp"
