@@ -1,7 +1,31 @@
+#include "script_component.hpp"
+
+class CfgPatches {
+    class SUBADDON {
+        addonRootClass = QUOTE(ADDON);
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {
+            "ace_realisticnames"
+        };
+        author = "johnb43";
+        authors[] = {
+            "johnb43"
+        };
+        url = "https://github.com/johnb432/Weapons-Balance-ACE";
+        skipWhenMissingDependencies = 1;
+        VERSION_CONFIG;
+    };
+};
+
 class CfgWeapons {
     class arifle_AKM_base_F;
     class arifle_AKM_F: arifle_AKM_base_F {
         displayName = "AKMN";
+    };
+    class arifle_AKM_FL_F: arifle_AKM_F {
+        displayName = "AKM (Flashlight)";
     };
 
     class arifle_AK12_GL_base_F;
@@ -39,13 +63,5 @@ class CfgWeapons {
     class SMG_05_base_F;
     class SMG_05_F: SMG_05_base_F {
         displayName = "HK MP5K-PDW";
-    };
-
-    class CBA_MiscItem_ItemInfo;
-    class ACE_ItemCore;
-    class ACE_UAVBattery: ACE_ItemCore {
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 8;
-        };
     };
 };

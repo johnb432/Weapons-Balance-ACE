@@ -1,13 +1,14 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class ADDON {
-        name = COMPONENT_NAME;
+    class SUBADDON {
+        addonRootClass = QUOTE(ADDON);
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "ace_main"
+            "BettIR_Core",
+            "ace_nightvision"
         };
         author = "johnb43";
         authors[] = {
@@ -18,3 +19,5 @@ class CfgPatches {
         VERSION_CONFIG;
     };
 };
+
+#include "CfgBettIR.hpp"

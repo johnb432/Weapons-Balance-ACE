@@ -1,13 +1,13 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class ADDON {
-        name = COMPONENT_NAME;
+    class SUBADDON {
+        addonRootClass = QUOTE(ADDON);
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "ace_main"
+            "ace_ballistics"
         };
         author = "johnb43";
         authors[] = {
@@ -18,3 +18,6 @@ class CfgPatches {
         VERSION_CONFIG;
     };
 };
+
+#include "CfgMagazines.hpp"
+#include "CfgMagazineWells.hpp"

@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 4.5.2024
+
+1.2.1.0
+- Made mod modular, so that it doesn't require all default ACE addons.
+
 # Changelog for Weapons balance 20.10.2023
 
 1.2.0.0

@@ -1,3 +1,5 @@
+#pragma hemtt flag pe23_ignore_has_include
+
 class CfgMagazineWells {
     class CBA_12g_6rnds {
         MAGAZINE_WELL[] += {
@@ -70,6 +72,8 @@ class CfgMagazineWells {
         };
     };
 
+
+    #if __has_include("\z\ace\addons\csw\script_component.hpp")
     class CBA_50BMG_100rnds {
         MAGAZINE_WELL[] += {
             "ace_csw_100Rnd_127x99_mag",
@@ -78,6 +82,7 @@ class CfgMagazineWells {
             "ace_csw_100Rnd_127x99_mag_yellow"
         };
     };
+    #endif
 
     class MAR10_338 {
         ace_ballistics[] = {

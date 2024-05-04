@@ -9,6 +9,7 @@ class BettIR_Config {
         BETTIR_COMPAT(ACE_NVG_Binocular);
         BETTIR_COMPAT(ACE_NVG_Biocular);
         BETTIR_COMPAT(ACE_NVG_Quadocular);
+        BETTIR_COMPAT(ACE_NVG_Gen1);
         BETTIR_COMPAT(ACE_NVG_Gen1_Brown);
         BETTIR_COMPAT(ACE_NVG_Gen1_Green);
         BETTIR_COMPAT(ACE_NVG_Gen2_Black);
