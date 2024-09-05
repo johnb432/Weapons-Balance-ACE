@@ -75,7 +75,6 @@ class CfgMagazines {
         displayname = "12 Gauge 8Rnd #00 Buckshot";
         count = 8;
         mass = 8.8;
-        model = "\A3\weapons_F\ammo\mag_univ.p3d";
         modelSpecial = "";
     };
     class ACE_8Rnd_12Gauge_Pellets_No0_Buck: ACE_6Rnd_12Gauge_Pellets_No0_Buck {
@@ -83,7 +82,6 @@ class CfgMagazines {
         displayname = "12 Gauge 8Rnd #0 Buckshot";
         count = 8;
         mass = 8.8;
-        model = "\A3\weapons_F\ammo\mag_univ.p3d";
         modelSpecial = "";
     };
     class ACE_8Rnd_12Gauge_Pellets_No1_Buck: ACE_6Rnd_12Gauge_Pellets_No1_Buck {
@@ -91,7 +89,6 @@ class CfgMagazines {
         displayname = "12 Gauge 8Rnd #1 Buckshot";
         count = 8;
         mass = 8.8;
-        model = "\A3\weapons_F\ammo\mag_univ.p3d";
         modelSpecial = "";
     };
     class ACE_8Rnd_12Gauge_Pellets_No2_Buck: ACE_6Rnd_12Gauge_Pellets_No2_Buck {
@@ -99,7 +96,6 @@ class CfgMagazines {
         displayname = "12 Gauge 8Rnd #2 Buckshot";
         count = 8;
         mass = 8.8;
-        model = "\A3\weapons_F\ammo\mag_univ.p3d";
         modelSpecial = "";
     };
     class ACE_8Rnd_12Gauge_Pellets_No3_Buck: ACE_6Rnd_12Gauge_Pellets_No3_Buck {
@@ -107,7 +103,6 @@ class CfgMagazines {
         displayname = "12 Gauge 8Rnd #3 Buckshot";
         count = 8;
         mass = 8.8;
-        model = "\A3\weapons_F\ammo\mag_univ.p3d";
         modelSpecial = "";
     };
     class ACE_8Rnd_12Gauge_Pellets_No4_Buck: ACE_6Rnd_12Gauge_Pellets_No4_Buck {
@@ -115,7 +110,6 @@ class CfgMagazines {
         displayname = "12 Gauge 8Rnd #4 Buckshot";
         count = 8;
         mass = 8.8;
-        model = "\A3\weapons_F\ammo\mag_univ.p3d";
         modelSpecial = "";
     };
     class ACE_8Rnd_12Gauge_Pellets_No4_Bird: ACE_6Rnd_12Gauge_Pellets_No4_Bird {
@@ -123,7 +117,6 @@ class CfgMagazines {
         displayname = "12 Gauge 8Rnd #7 Birdshot";
         count = 8;
         mass = 8.8;
-        model = "\A3\weapons_F\ammo\mag_univ.p3d";
         modelSpecial = "";
     };
 
@@ -133,7 +126,6 @@ class CfgMagazines {
         displayname = "12 Gauge 8Rnd Slug";
         count = 8;
         mass = 8.8;
-        model = "\A3\weapons_F\ammo\mag_univ.p3d";
         modelSpecial = "";
     };
 };
